@@ -1,0 +1,282 @@
+.header-section {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-option {
+    width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.setting-option {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.menu-header {
+    width: 60%;
+
+    font-size: 25px;
+}
+
+.option {
+    width: 60%;
+    font-size: 18px;
+    margin-left: 130px;
+    display: none;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.arrow-display {
+    font-size: 30px;
+    width: 10%;
+}
+
+.option li {
+    list-style-type: none;
+
+}
+
+.list {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+.list:hover {
+    box-shadow: 0 2px gray;
+}
+
+.header-button {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    height: 8%;
+}
+
+.header-button button {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color: slategray;
+    color: white;
+
+}
+
+.header-button div {
+    width: 90%;
+    margin: auto;
+}
+
+.semester-btn {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.semester-btn div {
+    width: 8%;
+}
+
+.semester-btn button {
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: slategray;
+    color: white;
+}
+
+.semester-btn button:hover,
+.header-button button:hover {
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: slategrey;
+    color: white;
+    border: 1px solid white;
+}
+
+.image-responsive {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.profile-table{
+    width: 40%;
+}
+
+.add-btn {
+    text-align: center;
+    height: 15%;
+}
+
+.btn-add {
+    height: 100%;
+    width: 10%;
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: gray;
+}
+
+.btn-add:hover {
+    color: silver;
+    box-shadow: 0 1px gray;
+}
+
+.btn-add:focus {
+    border: none;
+    outline: none;
+}
+
+.floating-pannel {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: gainsboro;
+    transform: translate(-30%, -30%);
+
+}
+
+.float-header {
+    width: 100%;
+    height: 15%;
+    background-color: slategray;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-label {
+    width: 90%;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.cross-pannel {
+    width: 10%;
+
+}
+
+.cross-pannel button {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background-color: slategray;
+}
+.cross-pannel button:hover{
+    color: black;
+}
+.flex-contain{
+    height: 27%;
+    display: flex;
+    justify-content:flex-start;
+}
+.name-label{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 35px ;
+
+}
+.textbox-name{
+    padding-top: 32px;
+    width: 60%;
+
+}
+
+.course-contain{
+    height: 20%;
+}
+.footer-contain{
+    height: 15%;
+    text-align: center;
+}
+.profile-image{
+    padding: 10px;
+    width: 20%;
+}
+.image-responsive-image{
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+    outline: none;
+
+}
+.image-responsive-image:hover{
+    border: 1px solid black;
+}
+.image-responsive-image:focus{
+    outline: none;
+    border: none;
+}
+.label-subject{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px ;
+}
+.div-subject{
+    width: 70%;
+    padding:13px;
+}
+.footer-contain button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: slategray;
+    color: white;
+}
+.btn-option{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.btn-option:focus{
+    outline: none;
+    border: none;
+}

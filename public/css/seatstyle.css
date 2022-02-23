@@ -1,0 +1,173 @@
+.container {
+    box-shadow: 3px 3px whitesmoke;
+    margin: 5% auto;
+    width: 90%
+}
+
+.flexbox {
+    margin: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox div {
+    padding: 12px;
+}
+
+.flexbox input {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    outline-color: white;
+    outline-style: outset;
+    outline-width: 3px;
+}
+
+.semestername {
+    width: 25%;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.starttextbox,
+.endtextbox {
+    width: 30%;
+}
+
+.labelto {
+    width: 10%;
+    text-align: center;
+    margin: 8px 0;
+
+}
+
+.flexbox label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.button {
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: slategray;
+    padding: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    float: right;
+    border-radius: 15px 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 3px 3px rgb(192, 181, 181);
+    background-color: rgb(121, 132, 143);
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.Done {
+    text-align: center;
+
+}
+
+.done-btn {
+    float: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 25px;
+
+}
+
+.done-btn:hover {
+    box-shadow: none;
+    color: slategray;
+    background-color: silver;
+}
+
+.roompanel {
+    display: flex;
+    border: none;
+    width: 100%;
+    padding: 2px;
+    background-color: slategray;
+    height: 60px;
+    justify-content: space-evenly;
+}
+
+.room-pannel {
+    width: 24%;
+    height: 48px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.room-btn {
+    display: block;
+    background-color: slategray;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.room-btn:hover{
+    box-shadow: 0 3px orange;
+    color: white;
+    text-decoration: none;
+}
+.room-btn:active{
+    background-color:rgb(214, 182, 121);
+}
+.seatplan{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftside,.rightside{
+    margin: 10px;
+    width: 45%;
+}
+.footer-menu{
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;
+    background-color:whitesmoke;
+}
+#schedule select{
+    color: #ffffff;
+    padding: 8px 16px;
+    background-color: slategray;
+    border: 1px solid transparent;
+    border-color:  slategray;
+    cursor: pointer;
+    user-select: none;
+}
+#schedule select::after{
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+
+}

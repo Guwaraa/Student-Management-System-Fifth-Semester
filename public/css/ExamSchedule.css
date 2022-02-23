@@ -1,0 +1,48 @@
+﻿.routine {
+    display: block;
+    padding: 20px 50px;
+}
+
+.date {
+    margin-left: 10%;
+}
+
+.day {
+    margin-left: 45%;
+    margin-top: -30px;
+}
+
+.subject {
+    margin-right: 10%;
+    margin-top: -35px;
+    float: right;
+}
+
+.routinepannel {
+    margin-top: 30px;
+}
+
+.month {
+    border-color: aliceblue;
+    padding: 10px 10px;
+    background-color: gainsboro;
+    color: black;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+
+.subjectlist {
+    border-color: aliceblue;
+    padding: 5px 5px;
+    background-color: gainsboro;
+    color: black;
+    margin-left: 2px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 5%;
+}
+
+.daydisplay {
+    font-family: Arial;
+    font-size: x-large;
+}

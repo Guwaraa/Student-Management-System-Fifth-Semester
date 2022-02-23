@@ -1,0 +1,32 @@
+
+.flex-box {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-box label {
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    font-weight: 500;
+}
+.flex-box input{
+    width: 100%;
+}
+.detail{
+    width: 20%;
+    margin: auto;
+}
+.inputbox{
+    width: 60%;
+    padding: 5px;
+    margin: auto;
+}
+.map-container{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+}
+.mapsource{
+
+    margin: auto;
+}

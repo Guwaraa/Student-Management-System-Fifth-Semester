@@ -1,0 +1,64 @@
+﻿* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.flex-box {
+    display: flex;
+    padding: 20px 10px;
+}
+
+.box-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.label-tag {
+    padding: 10px;
+    width: 25%;
+    height: 60px;
+    margin-right: 1%;
+}
+
+    .label-tag label {
+        font-family: Consolas;
+        font-size: 23px;
+        font-weight: 900;
+        display: block;
+    }
+
+.search-bar {
+    width: 25%;
+    margin-right: 1%;
+}
+
+    .search-bar input {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+.college-imagebox {
+    display:block;
+    height:350px;
+}
+.picture-box{
+    width:90%;
+    margin:auto 5%;
+    height:100%;
+    box-shadow:5px 3px gainsboro;
+}
+.button-upload{
+    margin-left:43%;
+    padding:10px;
+    width:15%;
+    border:none;
+    cursor:pointer;
+    background-color:slategray;
+    color:white;
+    font-size:20px;
+}

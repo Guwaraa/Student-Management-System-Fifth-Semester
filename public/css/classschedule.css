@@ -1,0 +1,60 @@
+.container-box{
+    height: 60%;
+    margin: auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: flex-start;
+}
+.namelabel{
+    font-size: larger;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:20%;
+    margin-left: 20px;
+}
+.inputtextbox{
+    width:60%;
+    border: 1px solid black;
+
+}
+.inputbox-starttime{
+    width: 100%;
+
+}
+#schedule  {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  #schedule td, #schedule th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #schedule tr:nth-child(even){background-color: #f2f2f2;}
+
+  #schedule tr:hover {background-color: #ddd;}
+
+  #schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: slategray;
+    color: white;
+  }
+  .day{
+      background-color: slategray;
+      color: white;
+  }
+.schedule-create{
+    width: 30%;
+}
+.scheduletable{
+    width: 70%;
+    height: 100%;
+    overflow-x: scroll;
+}
